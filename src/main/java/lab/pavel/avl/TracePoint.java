@@ -1,0 +1,19 @@
+package lab.pavel.avl;
+
+public enum TracePoint {
+    INSERT,
+    GO_LEFT,
+    GO_RIGHT,
+    UPDATE_HEIGHT,
+    REBALANCE,
+    LEFT_LEFT_CASE,
+    RIGHT_RIGHT_CASE,
+    LEFT_RIGHT_CASE,
+    RIGHT_LEFT_CASE,
+    ROTATE_LEFT,
+    ROTATE_RIGHT,
+    DUPLICATE_IGNORED,
+    SEARCH_HIT,
+    SEARCH_MISS
+}
+
